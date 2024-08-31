@@ -26,3 +26,24 @@ class Solution {
     return result;
   }
 }
+
+/**
+ * Rec
+ */
+// class Solution {
+//   /**
+//    * @param {ListNode} head
+//    * @return {ListNode}
+//    */
+//   reverseList(head, prev) {
+//     if (!head) {
+//       if (prev) {
+//         return prev;
+//       } else {
+//         return null;
+//       }
+//     }
+
+//     return this.reverseList(head.next, new ListNode(head.val, prev));
+//   }
+// }
